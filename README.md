@@ -29,7 +29,21 @@ locales-launch: Data of ru_RU locale not found, generating, please wait...
 ├── prov.yml
 └── Vagrantfile
 ```
-Конфигурирование выполнено, разворачиваем стенд
+Конфигурирование выполнено, разворачиваем стенд 
+```
+anton@anton-VirtualBox:~/dynamicweb$ vagrant up
+Bringing machine 'DynamicWeb' up with 'virtualbox' provider...
+==> DynamicWeb: Importing base box 'bento/ubuntu-20.04'...
+==> DynamicWeb: Matching MAC address for NAT networking...
+==> DynamicWeb: Setting the name of the VM: dynamicweb_DynamicWeb_1689623879649_21564
+==> DynamicWeb: Clearing any previously set network interfaces...
+==> DynamicWeb: Preparing network interfaces based on configuration...
+***
+```
+И выполним проверку
+
+
+
 
 
 
