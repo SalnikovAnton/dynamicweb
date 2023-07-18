@@ -38,21 +38,24 @@ Bringing machine 'DynamicWeb' up with 'virtualbox' provider...
 ==> DynamicWeb: Setting the name of the VM: dynamicweb_DynamicWeb_1689623879649_21564
 ==> DynamicWeb: Clearing any previously set network interfaces...
 ==> DynamicWeb: Preparing network interfaces based on configuration...
+
 ***
+
+TASK [Copy project] ************************************************************
+changed: [DynamicWeb]
+
+TASK [reset ssh connection] ****************************************************
+
+TASK [Run container] ***********************************************************
+changed: [DynamicWeb]
+
+PLAY RECAP *********************************************************************
+DynamicWeb                 : ok=10   changed=8    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 И выполним проверку
-
-
-
-
-
-
-
-
-* написать [Vagrantfile](https://github.com/SalnikovAnton/VPN/blob/main/Vagrantfile "Vagrantfile"), который будет поднимать 2 виртуальные машины server и client,
-* пишем роли в [serverplaybook](https://github.com/SalnikovAnton/VPN/blob/main/serverplaybook.yml "serverplaybook.yml") для сервера и [clientplaybook](https://github.com/SalnikovAnton/VPN/blob/main/clientplaybook.yml "clientplaybook.yml") для клиентской машины,
-* создаем [server.conf](https://github.com/SalnikovAnton/VPN/blob/main/server/server.conf "server.conf"), [openvpn@.service](https://github.com/SalnikovAnton/VPN/blob/main/server/openvpn@.service "openvpn@.service") для сервера и [server.conf](https://github.com/SalnikovAnton/VPN/blob/main/client/server.conf "server.conf"), [openvpn@.service](https://github.com/SalnikovAnton/VPN/blob/main/server/openvpn@.service "openvpn@.service") для клиента.
-   
-```
-
-```
+* http://localhost:8081/
+![Image alt](https://github.com/SalnikovAnton/dynamicweb/blob/main/skrin/localhost_8081.png)     
+* http://localhost:8082/
+![Image alt](https://github.com/SalnikovAnton/dynamicweb/blob/main/skrin/localhost_8082.png)     
+* http://localhost:8083/
+![Image alt](https://github.com/SalnikovAnton/dynamicweb/blob/main/skrin/localhost_8083.png)     
