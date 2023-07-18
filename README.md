@@ -3,7 +3,7 @@
 - nginx + php-fpm (laravel/wordpress) + python (flask/django) + js(react/angular);
 
 #### Для выполнения используем [методичку](https://github.com/SalnikovAnton/VPN/blob/main/dynamicweb.pdf "методичка"):   
-Создаем файл и согласно структуре проекта
+Создаем файлы и согласно методичке структуру проекта
 ```
 anton@anton-VirtualBox:~/dynamicweb$ tree
 locales-launch: Data of ru_RU locale not found, generating, please wait...
