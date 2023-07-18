@@ -53,9 +53,9 @@ PLAY RECAP *********************************************************************
 DynamicWeb                 : ok=10   changed=8    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
 И выполним проверку
-* http://localhost:8081/
+* http://localhost:8081/   
 ![Image alt](https://github.com/SalnikovAnton/dynamicweb/blob/main/skrin/localhost_8081.png)     
-* http://localhost:8082/
+* http://localhost:8082/   
 ![Image alt](https://github.com/SalnikovAnton/dynamicweb/blob/main/skrin/localhost_8082.png)     
-* http://localhost:8083/
+* http://localhost:8083/   
 ![Image alt](https://github.com/SalnikovAnton/dynamicweb/blob/main/skrin/localhost_8083.png)     
